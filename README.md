@@ -7,7 +7,7 @@
 <div align="justify">
 
 ## 🚀 A Glimpse Into My Journey
-By the light of day, I architect and direct systems, weaving the complex web of technology into scalable solutions. But as the sun sets, I trade codes for notes, delving into the art of singing and savoring the sweetness of life. My passion lies not just in constructing digital infrastructures but also in the relentless pursuit of knowledge and innovation. Join me on this perpetual odyssey of learning and technological exploration.
+By the light of day, I architect and direct systems, weaving the complex web of technology into scalable solutions. But as the sun sets, I trade codes for notes, delving into the art of singing and savoring the sweetness of life. My passion lies in constructing digital infrastructures and the relentless pursuit of knowledge and innovation. Join me on this perpetual odyssey of learning and technological exploration.
 
 </div>
 
