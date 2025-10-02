@@ -23,7 +23,7 @@ By day, I architect and lead engineering; by night, I swap code for vocal notes.
 
 ## 🧭 What I Do
 - **Architecture & Leadership:** reviving stalled projects, defining roadmaps, mentoring, and aligning tech with business KPIs  
-- **Backend at Scale:** Go, PHP (Laravel), Node.js; eventing, caching, observability; performance-first mindset  
+- **Backend at Scale:** Go, PHP (Laravel), Python, Node.js; eventing, caching, observability; performance-first mindset  
 - **DevOps:** Docker, Linux, CI/CD (GitLab/GitHub), cloud migrations, cost/perf tuning, secure delivery pipelines  
 - **Frontend & Mobile:** Vue/Nuxt, React, Angular, Flutter - pragmatic UI/UX to support core flows  
 - **Data Layer:** PostgreSQL, MySQL, MongoDB, Cassandra - with sensible indexing, partitioning, and backups
