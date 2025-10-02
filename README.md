@@ -1,4 +1,4 @@
-<h1 align="center">Sungat Arynov — Ginkida</h1>
+<h1 align="center">Sungat Arynov - Ginkida</h1>
 <p align="center"><b>Technical Director • Systems Architect • Turning complex IT into business growth</b></p>
 
 <p align="center">
