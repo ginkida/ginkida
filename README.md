@@ -17,17 +17,40 @@ I architect systems that handle real load and real money. My career pattern: joi
 
 Geography degree → self-taught in a dorm room → 11 years of shipping production code. No bootcamps, no shortcuts. I learned by breaking things at scale and fixing them under pressure.
 
-Three roles in one person: **System Architect** who thinks in business outcomes, **Backend Developer** (Go, PHP, Python) who writes the code, and **DevOps Engineer** who makes sure it stays alive at 3 AM.
+Three roles in one person: **System Architect** who thinks in business outcomes, **Backend Developer** (Go, Rust, PHP, Python) who writes the code, and **DevOps Engineer** who makes sure it stays alive at 3 AM.
 
 ---
 
-## 🔥 Featured: Gokin
+## 🔥 Featured Open Source
 
-<a href="https://github.com/ginkida/gokin">
-  <img src="https://minio.ginkida.dev/minion/github/gokin.jpg" alt="Gokin" width="100%">
-</a>
+### Rustyhand — Agent OS in Rust
 
-<p align="center">
+<p>
+  <a href="https://github.com/ginkida/rustyhand">
+    <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  </a>
+  <a href="https://github.com/ginkida/rustyhand"><img src="https://img.shields.io/github/stars/ginkida/rustyhand?style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/ginkida/rustyhand/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ginkida/rustyhand?style=flat-square" alt="License"></a>
+</p>
+
+**One binary. 37 agents. 26 LLM providers. 37 channels. Full agent operating system.**
+
+Not another chatbot wrapper. Rustyhand is an infrastructure layer for autonomous AI agents — a single Rust binary that replaces an entire SaaS stack.
+
+- 🤖 **37 agents** with independent memory, tools, and personalities
+- 🔌 **26 LLM providers** — OpenAI, Anthropic, Google, local models, and more
+- 💬 **37 channels** — Telegram, Discord, Slack, WhatsApp, and beyond
+- 🔗 **MCP server + A2A protocol** — agents talk to agents, tools talk to tools
+- 🌐 **120+ API endpoints** with a built-in web dashboard
+- ⚡ Compiled Rust — single binary, zero runtime dependencies
+
+<p align="center"><a href="https://github.com/ginkida/rustyhand"><b>→ github.com/ginkida/rustyhand</b></a></p>
+
+---
+
+### Gokin — AI Coding Assistant
+
+<p>
   <a href="https://github.com/ginkida/gokin/releases"><img src="https://img.shields.io/github/v/release/ginkida/gokin?style=flat-square" alt="Release"></a>
   <a href="https://github.com/ginkida/gokin/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ginkida/gokin?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/Go-1.23+-00ADD8?style=flat-square&logo=go" alt="Go">
@@ -36,17 +59,14 @@ Three roles in one person: **System Architect** who thinks in business outcomes,
 
 **Open-source AI coding assistant built in Go.** 50+ dev tools, multi-agent system, semantic code search, MCP support. Works with Gemini (free), GLM-4 ($3/mo), or fully offline via Ollama.
 
-I built Gokin because Claude Code hit its limits mid-project and I don't trust Chinese AI CLIs with my codebase. Now it handles the heavy lifting for $3/month while Claude Code handles the polish.
-
-**Key features:**
 - 🤖 Multi-agent system with Tree Planner (Beam Search, MCTS, A*)
 - 🔍 Semantic code search using embeddings
-- 🔒 Automatic secret redaction (API keys, tokens, credentials never reach the model)
+- 🔒 Automatic secret redaction — API keys and tokens never reach the model
 - 🔌 MCP protocol support (GitHub, Slack, Brave Search, Puppeteer)
 - 📂 Full file operations, git integration, shell execution, planning mode
 
 ```
-Gokin (cheap/free models)    →    Claude Code (Opus 4.5)
+Gokin (cheap/free models)    →    Claude Code (Opus)
 Write code from scratch           Polish and refine
 Bulk operations                   Complex architecture
 $0-3/month                        $100/month
@@ -56,12 +76,42 @@ $0-3/month                        $100/month
 
 ---
 
-## 🚀 What I'm Building
+### Portainer MCP — AI-Powered Container Management
+
+<p>
+  <a href="https://github.com/ginkida/portainer-mcp">
+    <img src="https://img.shields.io/badge/MCP-server-blue?style=flat-square" alt="MCP">
+  </a>
+  <a href="https://github.com/ginkida/portainer-mcp"><img src="https://img.shields.io/github/stars/ginkida/portainer-mcp?style=flat-square" alt="Stars"></a>
+</p>
+
+**MCP server that gives AI assistants full control over Portainer.** Deploy stacks, manage containers, volumes, networks, exec commands, pull images, inspect endpoints — all through natural language via Claude, Cursor, or any MCP client.
+
+<p align="center"><a href="https://github.com/ginkida/portainer-mcp"><b>→ github.com/ginkida/portainer-mcp</b></a></p>
+
+---
+
+### dbecho — Talk to PostgreSQL Through AI
+
+<p>
+  <a href="https://github.com/ginkida/dbecho">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://github.com/ginkida/dbecho"><img src="https://img.shields.io/github/stars/ginkida/dbecho?style=flat-square" alt="Stars"></a>
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT">
+</p>
+
+**MCP server for PostgreSQL.** Schema exploration, analytics, cross-database comparisons — all read-only, all local. Works with Claude Code, Cursor, or any MCP client.
+
+<p align="center"><a href="https://github.com/ginkida/dbecho"><b>→ github.com/ginkida/dbecho</b></a></p>
+
+---
+
+## 🚀 Products
 
 | Project | Stack | What it does |
 |---------|-------|-------------|
-| [**Gokin**](https://github.com/ginkida/gokin) | Go | AI coding assistant — open source, secure, cheap |
-| [**Taylor.kz**](https://taylor.kz) | PHP | IT job aggregator for Kazakhstan with AI matching, resume parsing, salary analytics |
+| [**Taylor.kz**](https://taylor.kz) | PHP | IT job aggregator for Kazakhstan — AI matching, resume parsing, salary analytics |
 | [**Somnlyx**](https://somnlyx.com) | PHP | AI dream interpretation platform — voice recording, social features, 9 languages |
 | [**Ginkida.dev**](https://ginkida.dev) | PHP | Analytical blog on tech, startups, and systems thinking |
 
@@ -92,7 +142,7 @@ Built the "Friends" subscription system end-to-end during pandemic surge. Increa
 <tr>
 <td><b>Languages</b></td>
 <td>
-<img src="https://skillicons.dev/icons?i=go,php,python,typescript,javascript,rust,dart&theme=dark" />
+<img src="https://skillicons.dev/icons?i=rust,go,php,python,typescript,javascript,dart&theme=dark" />
 </td>
 </tr>
 <tr>
@@ -123,35 +173,24 @@ Built the "Friends" subscription system end-to-end during pandemic surge. Increa
 
 ---
 
-## ✍️ Writing & Content
+## ✍️ Writing & Audience
 
-I write analytical deep-dives on tech, startups, and systems thinking at **[ginkida.dev](https://ginkida.dev)**. Recent topics include startup ecosystem analysis, engineering management, cognitive biases in teams, and scaling patterns.
+I write analytical deep-dives on tech, startups, and systems thinking at **[ginkida.dev](https://ginkida.dev)**. Topics include startup ecosystem teardowns, engineering management, cognitive biases in teams, IT market analytics backed by real data from Taylor.kz, and scaling patterns.
 
-### 🧵 Threads — [@ginkida](https://www.threads.com/@ginkida)
-
-**1,186 followers** and growing. Short-form analytical threads on tech, business, and psychology — distilled from long-form research on the blog.
-
-Recent threads that hit:
-- Why 80% of Twitter employees were servicing bureaucracy, not users
-- The "asymmetric insight illusion" that's destroying your team communication
-- Startup ecosystem teardowns with data nobody else is publishing
-
-The format: take a complex system (company, cognitive bias, market failure), compress it into 8–12 punchy comments, back every claim with data. No motivational fluff, no recycled LinkedIn wisdom.
-
-### 📊 Content reach
-
-| Platform | Metric |
-|----------|--------|
-| **[Threads](https://www.threads.com/@ginkida)** | 1,186 followers |
-| **[LinkedIn](https://www.linkedin.com/in/sungat-arynov)** | 1M+ post impressions |
+| Platform | Reach |
+|----------|-------|
+| **[LinkedIn](https://www.linkedin.com/in/sungat-arynov)** | 2M+ post impressions |
+| **[Threads](https://www.threads.com/@ginkida)** | 4,531 followers |
 | **[Ginkida.dev](https://ginkida.dev)** | Long-form analysis & research |
+
+The format: take a complex system (company, cognitive bias, market failure), compress it into data-backed analysis. No motivational fluff, no recycled LinkedIn wisdom.
 
 ---
 
 ## 🧭 Philosophy
 
 ```
-Geography grad → self-taught programmer → system architect
+Geography grad → self-taught programmer → system architect → open source builder
 ```
 
 I believe the best engineers are generalists who go deep when it matters. I fix broken systems, build new ones from zero, and write about what I learn. No frameworks of the month, no hype-driven development. Ship value, measure impact, refactor complexity away.
@@ -165,6 +204,6 @@ I believe the best engineers are generalists who go deep when it matters. I fix 
 <p align="center">
   <a href="https://www.linkedin.com/in/sungat-arynov">LinkedIn</a> ·
   <a href="https://ginkida.dev">Blog</a> ·
-  <a href="https://www.threads.com/@ginkida">Threads</a>
+  <a href="https://www.threads.com/@ginkida">Threads</a> ·
   <a href="mailto:ya-ginkida@yandex.kz">Email</a>
 </p>
