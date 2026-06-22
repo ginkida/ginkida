@@ -24,21 +24,33 @@ I build systems that handle real load and real money. My pattern is simple: I co
 - AI-agent infrastructure and MCP servers, in the open (below).
 
 ### Featured open source
-| Project | What it is |
-|---|---|
-| **[rustyhand](https://github.com/ginkida/rustyhand)** ![](https://img.shields.io/github/stars/ginkida/rustyhand?style=flat-square&label=%E2%98%85) | Agent operating system in a single Rust binary: scheduled autonomous agents with their own memory and tools, several LLM providers plus an OpenRouter gateway, Telegram/Discord/Slack channels, an MCP server, and the A2A protocol. |
-| **[gokin](https://github.com/ginkida/gokin)** ![](https://img.shields.io/github/stars/ginkida/gokin?style=flat-square&label=%E2%98%85) | Open-source AI coding assistant that lives in the terminal: codebase-aware, multi-agent, semantic code search, MCP support. |
-| **[agent-dispatch](https://github.com/ginkida/agent-dispatch)** ![](https://img.shields.io/github/stars/ginkida/agent-dispatch?style=flat-square&label=%E2%98%85) | MCP server that lets Claude Code agents delegate tasks to agents in other projects, each with its own context and tools. |
-| **[agent-runner](https://github.com/ginkida/agent-runner)** ![](https://img.shields.io/github/stars/ginkida/agent-runner?style=flat-square&label=%E2%98%85) | Autonomous LLM agent microservice for Laravel, multi-provider. |
-| **[dbecho](https://github.com/ginkida/dbecho)** ![](https://img.shields.io/github/stars/ginkida/dbecho?style=flat-square&label=%E2%98%85) | Talk to your PostgreSQL databases through any MCP client, read-only and local. |
-| **[sallyport](https://github.com/ginkida/sallyport)** ![](https://img.shields.io/github/stars/ginkida/sallyport?style=flat-square&label=%E2%98%85) | Security-first bridge between Claude Code (MCP) and Chrome, HMAC-paired. |
+
+- **[rustyhand](https://github.com/ginkida/rustyhand)** &nbsp;`Rust`&nbsp; ![](https://img.shields.io/github/stars/ginkida/rustyhand?style=flat-square&label=%E2%98%85&color=444)  
+  Agent operating system in a single Rust binary: scheduled autonomous agents with their own memory and tools, several LLM providers plus an OpenRouter gateway, Telegram/Discord/Slack channels, an MCP server, and the A2A protocol.
+- **[gokin](https://github.com/ginkida/gokin)** &nbsp;`Go`&nbsp; ![](https://img.shields.io/github/stars/ginkida/gokin?style=flat-square&label=%E2%98%85&color=444)  
+  Open-source AI coding assistant that lives in the terminal: codebase-aware, multi-agent, semantic code search, MCP support.
+- **[agent-dispatch](https://github.com/ginkida/agent-dispatch)** &nbsp;`Python`&nbsp; ![](https://img.shields.io/github/stars/ginkida/agent-dispatch?style=flat-square&label=%E2%98%85&color=444)  
+  MCP server that lets Claude Code agents delegate tasks to agents in other projects, each with its own context and tools.
+- **[agent-runner](https://github.com/ginkida/agent-runner)** &nbsp;`Go`&nbsp; ![](https://img.shields.io/github/stars/ginkida/agent-runner?style=flat-square&label=%E2%98%85&color=444)  
+  Autonomous LLM agent microservice for Laravel, multi-provider.
+- **[dbecho](https://github.com/ginkida/dbecho)** &nbsp;`Python`&nbsp; ![](https://img.shields.io/github/stars/ginkida/dbecho?style=flat-square&label=%E2%98%85&color=444)  
+  Talk to your PostgreSQL databases through any MCP client, read-only and local.
+- **[sallyport](https://github.com/ginkida/sallyport)** &nbsp;`TypeScript`&nbsp; ![](https://img.shields.io/github/stars/ginkida/sallyport?style=flat-square&label=%E2%98%85&color=444)  
+  Security-first bridge between Claude Code (MCP) and Chrome, HMAC-paired.
 
 ### Stack
-**Languages:** Go, Rust, PHP, Python, TypeScript
-**Backend & architecture:** distributed systems, microservices, high-load, system design
-**Data:** PostgreSQL, ClickHouse, Redis, pgvector
-**Cloud & ops:** Docker, CI/CD, Portainer, Docker Swarm
-**AI:** LLM integration, AI agents, MCP, A2A
+
+**Languages**  
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+**Data**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+
+**Cloud & Ops**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+**AI**  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-111111?style=for-the-badge) ![A2A](https://img.shields.io/badge/A2A-5A45FF?style=for-the-badge)
 
 <p>
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=ginkida&show_icons=true&hide_border=true&include_all_commits=true">
