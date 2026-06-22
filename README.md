@@ -4,6 +4,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/sungat-arynov"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="https://x.com/ginkida"><img src="https://img.shields.io/badge/X-000?style=flat-square&logo=x&logoColor=white"></a>
+  <a href="https://www.threads.com/@ginkida"><img src="https://img.shields.io/badge/Threads-12k%20followers-000?style=flat-square&logo=threads&logoColor=white"></a>
   <a href="https://ginkida.dev"><img src="https://img.shields.io/badge/Blog-ginkida.dev-111?style=flat-square"></a>
   <a href="https://taylor.kz"><img src="https://img.shields.io/badge/Product-Taylor.kz-4F46E5?style=flat-square"></a>
   <img src="https://img.shields.io/badge/Almaty,%20KZ%20%2F%20remote-2e7d32?style=flat-square">
