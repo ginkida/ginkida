@@ -29,7 +29,8 @@ I build systems that handle real load and real money. My pattern is simple: I co
 - **[rustyhand](https://github.com/ginkida/rustyhand)** &nbsp;`Rust`&nbsp; ![](https://img.shields.io/github/stars/ginkida/rustyhand?style=flat-square&label=%E2%98%85&color=444)  
   Agent operating system in a single Rust binary: scheduled autonomous agents with their own memory and tools, several LLM providers plus an OpenRouter gateway, Telegram/Discord/Slack channels, an MCP server, and the A2A protocol.
 - **[gokin](https://github.com/ginkida/gokin)** &nbsp;`Go`&nbsp; ![](https://img.shields.io/github/stars/ginkida/gokin?style=flat-square&label=%E2%98%85&color=444)  
-  Open-source AI coding assistant that lives in the terminal: codebase-aware, multi-agent, semantic code search, MCP support.
+  Open-source AI coding assistant that lives in the terminal: codebase-aware, multi-agent, semantic code search, MCP support.  
+  <a href="https://github.com/ginkida/gokin"><img src="https://minio.ginkida.dev/minion/github/gokin-demo.gif" width="640" alt="gokin running in the terminal"></a>
 - **[agent-dispatch](https://github.com/ginkida/agent-dispatch)** &nbsp;`Python`&nbsp; ![](https://img.shields.io/github/stars/ginkida/agent-dispatch?style=flat-square&label=%E2%98%85&color=444)  
   MCP server that lets Claude Code agents delegate tasks to agents in other projects, each with its own context and tools.
 - **[logden](https://github.com/ginkida/logden)** &nbsp;`Go`&nbsp; ![](https://img.shields.io/github/stars/ginkida/logden?style=flat-square&label=%E2%98%85&color=444)  
