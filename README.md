@@ -32,8 +32,8 @@ I build systems that handle real load and real money. My pattern is simple: I co
   Open-source AI coding assistant that lives in the terminal: codebase-aware, multi-agent, semantic code search, MCP support.
 - **[agent-dispatch](https://github.com/ginkida/agent-dispatch)** &nbsp;`Python`&nbsp; ![](https://img.shields.io/github/stars/ginkida/agent-dispatch?style=flat-square&label=%E2%98%85&color=444)  
   MCP server that lets Claude Code agents delegate tasks to agents in other projects, each with its own context and tools.
-- **[agent-runner](https://github.com/ginkida/agent-runner)** &nbsp;`Go`&nbsp; ![](https://img.shields.io/github/stars/ginkida/agent-runner?style=flat-square&label=%E2%98%85&color=444)  
-  Autonomous LLM agent microservice for Laravel, multi-provider.
+- **[logden](https://github.com/ginkida/logden)** &nbsp;`Go`&nbsp; ![](https://img.shields.io/github/stars/ginkida/logden?style=flat-square&label=%E2%98%85&color=444)  
+  Compact centralized logging: POST your logs to a stdlib-only Go gateway that writes into ClickHouse, tuned to run on a 1 GB VPS.
 - **[dbecho](https://github.com/ginkida/dbecho)** &nbsp;`Python`&nbsp; ![](https://img.shields.io/github/stars/ginkida/dbecho?style=flat-square&label=%E2%98%85&color=444)  
   Talk to your PostgreSQL databases through any MCP client, read-only and local.
 - **[sallyport](https://github.com/ginkida/sallyport)** &nbsp;`TypeScript`&nbsp; ![](https://img.shields.io/github/stars/ginkida/sallyport?style=flat-square&label=%E2%98%85&color=444)  
@@ -52,11 +52,6 @@ I build systems that handle real load and real money. My pattern is simple: I co
 
 **AI**  
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-111111?style=for-the-badge) ![A2A](https://img.shields.io/badge/A2A-5A45FF?style=for-the-badge)
-
-<p>
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=ginkida&show_icons=true&hide_border=true&include_all_commits=true">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ginkida&layout=compact&hide_border=true&langs_count=8">
-</p>
 
 ### Open to
 Senior roles as a System Architect, Backend Developer, or AI Integration Engineer. Almaty or remote. Best ways to reach me: [LinkedIn](https://www.linkedin.com/in/sungat-arynov) or ginkida.dev.
