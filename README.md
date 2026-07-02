@@ -53,5 +53,11 @@ I build systems that handle real load and real money. My pattern is simple: I co
 **AI**  
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-111111?style=for-the-badge) ![A2A](https://img.shields.io/badge/A2A-5A45FF?style=for-the-badge)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ginkida/ginkida/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ginkida/ginkida/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution graph as a snake game" src="https://raw.githubusercontent.com/ginkida/ginkida/output/github-contribution-grid-snake.svg">
+</picture>
+
 ### Open to
 Senior roles as a System Architect, Backend Developer, or AI Integration Engineer. Almaty or remote. Best ways to reach me: [LinkedIn](https://www.linkedin.com/in/sungat-arynov) or ginkida.dev.
